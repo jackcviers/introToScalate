@@ -1,0 +1,12 @@
+-@ val body: String
+-@ val title: String = "Some Default Title"
+!!! 5
+html
+  head
+    title #{title}
+  body
+    p layout header goes here...
+
+    - unescape(body)
+
+    p layout footer goes here...
