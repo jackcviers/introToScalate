@@ -12,11 +12,11 @@ Presentation Transcript
 -------------
 A general transcript for this presentation with accompanying links to the presentation slides is contained in the transcript directory.  This may or may not reflect the exact words of the presenter when the presentation is given.
 
-Any videos of the original presentation will appear on [youtube|http://youtube.com] under the user jackcviers.
+Any videos of the original presentation will appear on [youtube](http://youtube.com) under the user jackcviers.
 
 Running the presentation
 --------------
-This presentation requires [SBT|http://www.scala-sbt.org/], and Java 6 or higher to build and run.
+This presentation requires [SBT](http://www.scala-sbt.org/), and Java 6 or higher to build and run.
 
 License
 --------------
