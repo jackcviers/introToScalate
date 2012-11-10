@@ -6,13 +6,13 @@ Learn how Scalate provides a common framework supporting several templating synt
 
 Presentation Files
 -------------
-This presentation is written in Scala, using Scalate and Jade. It can be found under src/main/scala/scalate. The template files can be found under src/main/resources/templates. Code examples can be found under src/main/scala/examples.
+This presentation is written in [Scala](http://www.scala-lang.org/), using [Scalate](http://scalate.fusesource.org/) and [Jade](http://scalate.fusesource.org/documentation/jade.html). It can be found under src/main/scala/scalate. The template files can be found under src/main/resources/templates. Code examples can be found under src/main/scala/examples.
 
 Presentation Transcript
 -------------
 A general transcript for this presentation with accompanying links to the presentation slides is contained in the transcript directory.  This may or may not reflect the exact words of the presenter when the presentation is given.
 
-Any videos of the original presentation will appear on [youtube](http://youtube.com) under the user jackcviers.
+Any videos of the original presentation will appear on [YouTube](http://youtube.com) under the user jackcviers.
 
 Running the presentation
 --------------
