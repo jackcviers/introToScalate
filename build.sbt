@@ -1,3 +1,9 @@
+import sbtassembly.Plugin._
+
+import AssemblyKeys._
+
+assemblySettings
+
 name := "intro-to-scalate"
 
 organization := "jackcviers"
@@ -13,6 +19,12 @@ libraryDependencies +=  "ch.qos.logback" % "logback-access" % "1.0.2"
 libraryDependencies +=  "ch.qos.logback" % "logback-classic" % "0.9.24"
 
 libraryDependencies += "net.databinder" %% "unfiltered" % "0.6.4"
+
+libraryDependencies += "net.databinder" %% "unfiltered-scalate" % "0.6.3"
+
+libraryDependencies += "net.databinder" %% "unfiltered-jetty" % "0.6.4"
+
+libraryDependencies += "net.databinder" %% "unfiltered-filter-async" % "0.6.4"
 
 libraryDependencies += "net.databinder" %% "unfiltered-spec" % "0.6.4" % "test"
 
