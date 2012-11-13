@@ -4,9 +4,80 @@
 html
   head
     title #{title}
+    link(href="/public/css/style.css" rel="stylesheet" media="all")/
   body
-    p layout header goes here...
-
-    - unescape(body)
-
-    p layout footer goes here...
+    nav#helpers
+      button#nav-prev.nav-prev(title="Previous")
+        | <
+      button#slide-no(title="Jump to slide") 1
+      button#nav-next.nav-next(title="Next")
+        | >
+      menu
+        button(type="checkbox" data-command="notes" title="View Notes") Notes
+        button(type="checkbox" data-command="help" title="View Help") Help
+        /button(type="checkbox" data-command="back" title="Back to Slideshow") Back
+    .presentation
+      #presentation-counter Loading...
+      .slides
+        #slide1.slide
+          section.middle
+            p Html5 Presentation Demo
+            p 
+              | Press 
+              span#left-init-key.key 
+                &= "→"
+              to continue.
+          aside.note
+            section Notes for first slide
+        #slide2.slide
+          header Slides Controls
+          section
+            ul
+              li
+                span.key
+                  &= "→"
+                | and
+                span.key 
+                  &= "←"
+                | to move forward/back.
+              li
+                span.key spacebar
+                | to move forward.
+              li
+                span.key N
+                | to toggle hidden notes.
+              li
+                span.key H
+                | to toggle help.
+          aside.note
+            section Notes for second slide
+        #slide3.slide
+          section.middle
+            hgroup
+              :markdown
+                Slide3
+                ======
+                Slide Title #3
+                ---------------
+              p text of slide, text of slide, text of slide
+    #hidden-note.invisible(style="display:none;")
+    aside#help.sidebar.invisible(style="display:hidden;")
+      table
+        caption Help
+        tbody
+          tr
+            th Move forward/back
+            td
+              &= "← →"
+          tr
+            th Move forward
+            td spacebar
+          tr
+            th Hidden Notes
+            td
+              | N
+          tr
+            th Help
+            td
+              | H
+    script(src="/public/js/script.js")
