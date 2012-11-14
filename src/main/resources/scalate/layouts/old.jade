@@ -15,12 +15,11 @@ html
       menu
         button(type="checkbox" data-command="notes" title="View Notes") Notes
         button(type="checkbox" data-command="help" title="View Help") Help
-        button(type="checkbox" data-command="back" title="Back to Slideshow") Back
+        /button(type="checkbox" data-command="back" title="Back to Slideshow") Back
     .presentation
       #presentation-counter Loading...
       .slides
         - unescape(body)
-    #hidden-note.invisible(style="display: none;")
     aside#help.sidebar.invisible(style="display:hidden;")
       table
         caption Help

@@ -1,4 +1,4 @@
-#slide3.slide
+.slide(id="slide#{index}")
   section.middle
     hgroup
       :&markdown
@@ -6,7 +6,9 @@
         ======
         #{subtitle}
         -----------
-      p #{body}
-   aside.note
+      p 
+        | #{body}
+  aside.note
     section 
-      p #{notes}
+      p 
+        | #{notes}

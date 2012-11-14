@@ -48,6 +48,8 @@ libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.6.1"
 
 libraryDependencies += "org.slf4j" % "slf4j-api" % "1.6.1"
 
+libraryDependencies += "org.scalaz" % "scalaz-core_2.9.2" % "7.0.0-M3"
+
 resolvers += "unfiltered-resolver-0" at "https://oss.sonatype.org/content/repositories/releases"
 
 resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"

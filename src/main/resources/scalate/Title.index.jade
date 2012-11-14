@@ -1,19 +1,16 @@
-.slide
+.slide(id="slide#{index}")
   section.middle
-    :&markdown
-      #{Title}
-      ========
-      #{subtitle}
-      -----------
+    p #{title}
+    p #{subtitle}
     p 
-      | Jack Viers:
+      | #{author}
       i Hacker
     p
-      &markdown:
-        [#{email}](mailto:#{jackcviers@gmail.com})
+      :&markdown
+        [#{email}](mailto:#{email})
     p
-      &markdown:
-        [#{twitter}](http://twitter.com/#{twitter})
-   aside.note
+      :&markdown
+        [@#{twitter}](http://twitter.com/#{twitter})
+  aside.note
     section 
       p #{notes}

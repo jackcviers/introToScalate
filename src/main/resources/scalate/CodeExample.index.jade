@@ -1,6 +1,9 @@
-#slide4.slide
+.slide(id="slide#{index}")
   section
-    header #{Title}
-    :&markdown
-          #{code}
-      
+    header #{title}
+    pre
+      code
+        | #{code}
+  aside.note
+    section
+      p #{notes}
