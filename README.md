@@ -6,13 +6,7 @@ Learn how Scalate provides a common framework supporting several templating synt
 
 Presentation Files
 -------------
-This presentation is written in [Scala](http://www.scala-lang.org/), served using [Unfiltered](http://unfiltered.databinder.net/Unfiltered.html), using [Scalate](http://scalate.fusesource.org/) and [Jade](http://scalate.fusesource.org/documentation/jade.html). Tests use [specs2](http://etorreborre.github.com/specs2/) and [Dispatch Reboot](http://dispatch.databinder.net/Dispatch.html). The presentation server files can be found under src/main/scala/scalate. The template files can be found under src/main/resources/templates. Code examples can be found under src/main/scala/examples.
-
-Presentation Transcript
--------------
-A general transcript for this presentation with accompanying links to the presentation slides is contained in the transcript directory.  This may or may not reflect the exact words of the presenter when the presentation is given.
-
-Any videos of the original presentation will appear on [YouTube](http://youtube.com) under the user jackcviers.
+This presentation is written in [Scala](http://www.scala-lang.org/), served using [Unfiltered](http://unfiltered.databinder.net/Unfiltered.html), using [Scalate](http://scalate.fusesource.org/) and [Jade](http://scalate.fusesource.org/documentation/jade.html). Tests use [specs2](http://etorreborre.github.com/specs2/) and [Dispatch Reboot](http://dispatch.databinder.net/Dispatch.html). The presentation server files can be found under src/main/scala/scalate. The template files can be found under src/main/resources/templates.
 
 Running the presentation
 --------------
